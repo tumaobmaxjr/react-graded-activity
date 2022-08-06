@@ -1,0 +1,23 @@
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.centeredContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
